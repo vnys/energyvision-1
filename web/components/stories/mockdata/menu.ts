@@ -10,6 +10,9 @@ export const MockMenuData = [
   },
   {
     label: 'Newsroom',
-    links: [{ label: 'Latest news', url: '/news' }],
+    links: [
+      { label: 'Latest news', url: '/news' },
+      { label: 'News archive', url: '/en/news/archive' },
+    ],
   },
 ]
