@@ -2,5 +2,5 @@ packages:
   - '.'
   - 'studio'
   - 'web'
-  - 'legacy-css'
-  - 'legacy-css-test-app'
+  - 'legacy/css'
+  - 'legacy/content'
