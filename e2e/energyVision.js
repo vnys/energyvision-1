@@ -1,1 +1,0 @@
-export const envisStartPage = 'https://energyvision.app.radix.equinor.com/'
