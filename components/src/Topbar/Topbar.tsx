@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Link from 'next/link'
 import styled from 'styled-components'
 import { useState, useEffect, forwardRef, HTMLAttributes } from 'react'
 
@@ -51,11 +50,11 @@ export const Topbar = forwardRef<HTMLDivElement, TopbarProps>(function Topbar({ 
 
   return (
     <Bar ref={ref} style={{ top: isVisible ? 0 : -height }}>
-      <Link href="/">
-        <a>
-          <Logo src="https://eds-static.equinor.com/logo/equinor-logo-horizontal.svg#red" alt="Equinor" />
-        </a>
-      </Link>
+      {/* <Link href="/"> */}
+      <a>
+        <Logo src="https://eds-static.equinor.com/logo/equinor-logo-horizontal.svg#red" alt="Equinor" />
+      </a>
+      {/* </Link> */}
 
       {children}
     </Bar>

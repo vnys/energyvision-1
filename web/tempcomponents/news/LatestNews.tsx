@@ -1,4 +1,4 @@
-import { Heading } from '@components'
+import { Heading } from '@equinor/energyvision-components'
 import styled from 'styled-components'
 import NewsCard from './NewsCard'
 import type { NewsCardData } from '../../types/types'

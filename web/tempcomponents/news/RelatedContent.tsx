@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { Heading, Link, List } from '@components'
+import { Heading, Link, List } from '@equinor/energyvision-components'
 import type { RelatedLinksData, LinkData } from '../../types/types'
 import { default as NextLink } from 'next/link'
 

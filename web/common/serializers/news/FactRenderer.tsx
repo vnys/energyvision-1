@@ -1,6 +1,6 @@
 import SimpleBlockContent from '../../SimpleBlockContent'
-import { FactBox, Heading } from '@components'
-import type { FactBackground, FactImagePosition } from '@components'
+import { FactBox, Heading } from '@equinor/energyvision-components'
+import type { FactBackground, FactImagePosition } from '@equinor/energyvision-components'
 import styled from 'styled-components'
 import { ListRenderer, ListItemRenderer } from '..'
 import { blocksToText, urlFor } from '../../helpers'

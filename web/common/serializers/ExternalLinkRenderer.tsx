@@ -1,5 +1,5 @@
 // https://www.sanity.io/docs/portable-text-internal-and-external-links
-import { Link } from '@components'
+import { Link } from '@equinor/energyvision-components'
 
 type ExternalLinkMark = {
   _key: string

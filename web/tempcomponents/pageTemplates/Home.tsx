@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components'
-import { Link } from '@components'
+import { Link } from '@equinor/energyvision-components'
 import NextLink from 'next/link'
 
 const Container = styled.main`

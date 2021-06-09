@@ -1,4 +1,4 @@
-import { PullQuote } from '@components'
+import { PullQuote } from '@equinor/energyvision-components'
 import Img from 'next/image'
 import { imageProps } from '../../common/helpers'
 import type { QuoteData } from '../../types/types'

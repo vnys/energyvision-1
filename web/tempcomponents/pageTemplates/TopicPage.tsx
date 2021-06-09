@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import type { PageSchema } from '../../types/types'
-import { Heading } from '@components'
+import { Heading } from '@equinor/energyvision-components'
 import HeroImage from '../../tempcomponents/shared/HeroImage'
 import Teaser from '../topicPages/Teaser'
 import TextBlock from '../topicPages/TextBlock'

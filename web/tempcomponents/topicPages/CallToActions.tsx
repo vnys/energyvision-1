@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { Button, List, Link } from '@components'
+import { Button, List, Link } from '@equinor/energyvision-components'
 import type { LinkData } from '../../types/types'
 import { default as NextLink } from 'next/link'
 
@@ -10,14 +10,14 @@ type CallToActionsProps = {
 }
 
 function getUrl(callToAction: LinkData) {
-  const { type, link, href } = callToAction;
+  const { type, link, href } = callToAction
   let url: string
   if (type === 'internalUrl') {
     url = link?.type === 'news' ? `/news/${link?.slug}` : link?.slug || ''
   } else {
     url = href || ''
   }
-  return url;
+  return url
 }
 
 const C2ALinkAsButton = ({ callToAction }: { callToAction: LinkData }) => {
@@ -34,10 +34,10 @@ const C2ALinkAsButton = ({ callToAction }: { callToAction: LinkData }) => {
           </Button>
         </NextLink>
       ) : (
-          <Button as="a" variant="outlined" href={url} color="secondary">
-            {label} {extension && `(${extension.toUpperCase()})`}
-          </Button>
-        )}
+        <Button as="a" variant="outlined" href={url} color="secondary">
+          {label} {extension && `(${extension.toUpperCase()})`}
+        </Button>
+      )}
     </>
   )
 }
@@ -45,11 +45,11 @@ const C2ALinkAsButton = ({ callToAction }: { callToAction: LinkData }) => {
 const CallToActions = ({ callToActions }: CallToActionsProps) => {
   if (!callToActions) return null
 
-  return (
-    callToActions.length === 1 ?
-      <C2ALinkAsButton callToAction={callToActions[0]} />
-      :
-      <List unstyled>{callToActions.map((callToAction: LinkData) => {
+  return callToActions.length === 1 ? (
+    <C2ALinkAsButton callToAction={callToActions[0]} />
+  ) : (
+    <List unstyled>
+      {callToActions.map((callToAction: LinkData) => {
         const { id, type, label, extension } = callToAction
         const url = getUrl(callToAction)
         return (
@@ -63,15 +63,16 @@ const CallToActions = ({ callToActions }: CallToActionsProps) => {
                 </NextLink>
               </Item>
             ) : (
-                <Item>
-                  <Link variant="contentLink" type={type} href={url}>
-                    {label} {extension && `(${extension.toUpperCase()})`}
-                  </Link>
-                </Item>
-              )}
+              <Item>
+                <Link variant="contentLink" type={type} href={url}>
+                  {label} {extension && `(${extension.toUpperCase()})`}
+                </Link>
+              </Item>
+            )}
           </Fragment>
         )
-      })}</List>
+      })}
+    </List>
   )
 }
 

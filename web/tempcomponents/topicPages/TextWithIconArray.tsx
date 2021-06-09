@@ -1,4 +1,4 @@
-import { TextWithIcon, BackgroundContainer } from '@components'
+import { TextWithIcon, BackgroundContainer } from '@equinor/energyvision-components'
 import { urlFor } from '../../common/helpers'
 import Img from 'next/image'
 import styled from 'styled-components'

@@ -1,6 +1,6 @@
 import BlockContent from '@sanity/block-content-to-react'
 import type { BlockNode } from '@sanity/block-content-to-react'
-import { Text } from '@components'
+import { Text } from '@equinor/energyvision-components'
 
 type IngressProps = {
   children: string[]

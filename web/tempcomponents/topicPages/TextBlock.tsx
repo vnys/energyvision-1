@@ -1,4 +1,4 @@
-import { Heading, Eyebrow, BackgroundContainer } from '@components'
+import { Heading, Eyebrow, BackgroundContainer } from '@equinor/energyvision-components'
 import { IngressBlockRenderer, BlockRenderer } from '../../common/serializers'
 import SimpleBlockContent from '../../common/SimpleBlockContent'
 import type { TextBlockData } from '../../types/types'
@@ -66,12 +66,8 @@ const TextBlock = ({ data }: TextBlockProps) => {
             }}
           />
         )}
-        {callToActions && (
-          <CallToActions callToActions={callToActions} />
-        )}
-
+        {callToActions && <CallToActions callToActions={callToActions} />}
       </StyledTextBlock>
-
     </StyledTextBlockWrapper>
   )
 }

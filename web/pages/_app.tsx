@@ -3,13 +3,15 @@ import type { AppProps /*, AppContext */ } from 'next/app'
  */ import Head from 'next/head'
 import { useState, useCallback } from 'react'
 import { IntlProvider } from 'react-intl'
-import { Topbar, Link } from '@components'
+import { Topbar, Link } from '@equinor/energyvision-components'
 import { GlobalStyle } from '../styles/globalStyles'
 import styled, { createGlobalStyle } from 'styled-components'
 import { DefaultSeo } from 'next-seo'
 import NextLink from 'next/link'
+// import '@equinor/energyvision-legacy-css'
 /* import ArchiveNewsStyles from './news/archive/ArchiveNewsStyles'
  */
+
 const MenuWrapper = styled.div`
   margin: 0 auto;
 

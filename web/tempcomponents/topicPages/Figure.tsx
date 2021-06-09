@@ -2,7 +2,7 @@ import Img from 'next/image'
 import { imageProps } from '../../common/helpers'
 import type { FigureData } from '../../types/types'
 import styled from 'styled-components'
-import { BackgroundContainer, FigureCaption } from '@components'
+import { BackgroundContainer, FigureCaption } from '@equinor/energyvision-components'
 import { StyledTextBlockWrapper } from './TextBlock'
 import { Component } from 'react'
 
@@ -17,7 +17,7 @@ const StyledFigure = styled.figure`
 `
 
 /* If the image is an adjacent sibling of a text block component, we don't want
-to double up the padding (with text block bottom and image top padding) 
+to double up the padding (with text block bottom and image top padding)
 This is not an optimal solution, but we still don't know how many components
 that will act like this, and/or if the image should be a part of the text block component instead
 */

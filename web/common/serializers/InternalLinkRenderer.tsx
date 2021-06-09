@@ -1,4 +1,4 @@
-import { Link } from '@components'
+import { Link } from '@equinor/energyvision-components'
 import { default as NextLink } from 'next/link'
 
 type InternalLinkMark = {

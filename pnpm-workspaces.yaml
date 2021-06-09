@@ -2,6 +2,8 @@ packages:
   - '.'
   - 'studio'
   - 'web'
+  - 'components'
+  - 'components-test-app'
   - 'e2e'
   - 'legacy/css'
   - 'legacy/content'

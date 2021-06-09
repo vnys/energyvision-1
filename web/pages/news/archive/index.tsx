@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import { NextSeo } from 'next-seo'
 import Head from 'next/head'
-import { Heading, Link, List, Layout } from '@components'
+import { Heading, Link, List, Layout } from '@equinor/energyvision-components'
 import { GetStaticProps /* GetStaticPaths */ } from 'next'
 import styled from 'styled-components'
 
@@ -19,11 +19,10 @@ export default function AllArchivedNews({ newsList }: any) {
     <>
       {/* @TODO: Norwegian version */}
       {/*       @TODO: Avoid duplicate description, write one for the archived pages
- */}      <NextSeo
+       */}{' '}
+      <NextSeo
         title="Archived news"
         description="Keep updated on news from Equinor. Find all our general news, stock market announcements and notifiable tradings here in our news archive."
-
-
       ></NextSeo>
       <Layout>
         <Head>

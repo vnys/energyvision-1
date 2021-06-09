@@ -9,7 +9,7 @@ import { getQueryFromSlug } from '../lib/queryFromSlug'
 import ErrorPage from 'next/error'
 import dynamic from 'next/dynamic'
 import { usePreviewSubscription } from '../lib/sanity'
-import { Layout } from '@components'
+import { Layout } from '@equinor/energyvision-components'
 import getOpenGraphImages from '../common/helpers/getOpenGraphImages'
 
 const HomePage = dynamic(() => import('../tempcomponents/pageTemplates/Home'))

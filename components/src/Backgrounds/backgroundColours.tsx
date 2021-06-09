@@ -1,4 +1,4 @@
-import type { BackgroundColours } from '../../../types/types'
+import type { BackgroundColours } from '../../types/types'
 
 export type StyleVariants = 'none' | 'one' | 'two' | 'three' | 'four' | 'five'
 

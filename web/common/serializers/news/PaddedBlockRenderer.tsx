@@ -1,5 +1,5 @@
 import BlockContent from '@sanity/block-content-to-react'
-import { Text, Heading } from '@components'
+import { Text, Heading } from '@equinor/energyvision-components'
 import styled from 'styled-components'
 import { PortableTextBlock } from '../../../types/types'
 

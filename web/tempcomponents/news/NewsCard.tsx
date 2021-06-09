@@ -1,4 +1,4 @@
-import { Card, FormattedDate } from '@components'
+import { Card, FormattedDate } from '@equinor/energyvision-components'
 import { default as NextLink } from 'next/link'
 import Img from 'next/image'
 import { imageProps } from '../../common/helpers'

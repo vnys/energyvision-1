@@ -1,6 +1,6 @@
 import Img from 'next/image'
 import styled from 'styled-components'
-import { FigureCaption } from '@components'
+import { FigureCaption } from '@equinor/energyvision-components'
 import { imageProps } from '../../common/helpers'
 import type { ImageWithCaptionData } from '../../types/types'
 

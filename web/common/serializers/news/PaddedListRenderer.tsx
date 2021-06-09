@@ -1,4 +1,4 @@
-import { List } from '@components'
+import { List } from '@equinor/energyvision-components'
 import styled from 'styled-components'
 
 type PaddedListProps = {

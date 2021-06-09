@@ -1,4 +1,4 @@
-import { Teaser as EnvisTeaser, Heading, Link, Eyebrow, BackgroundContainer } from '@components'
+import { Teaser as EnvisTeaser, Heading, Link, Eyebrow, BackgroundContainer } from '@equinor/energyvision-components'
 import styled from 'styled-components'
 import { default as NextLink } from 'next/link'
 import { imageProps } from '../../common/helpers/sanityImgLoader'

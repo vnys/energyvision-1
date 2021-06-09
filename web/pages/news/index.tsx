@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Layout } from '@components'
+import { Layout } from '@equinor/energyvision-components'
 import { allNewsQuery } from '../../lib/queries'
 import { getClient } from '../../lib/sanity.server'
 import styled from 'styled-components'

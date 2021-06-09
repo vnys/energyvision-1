@@ -1,7 +1,7 @@
 // @TODO Don't know yet where to put this or how to structure it
 import { SanityImageObject, SanityImageCrop, SanityImageHotspot } from '@sanity/image-url/lib/types/types'
 import { PortableTextEntry } from '@sanity/block-content-to-react'
-import { TeaserImagePosition, TeaserImageSize } from '@components'
+import { TeaserImagePosition, TeaserImageSize } from '@equinor/energyvision-components'
 
 export type ImageWithCaptionData = {
   _type: 'imageWithAltAndCaption'

@@ -1,5 +1,5 @@
 import { getArchivedNewsList, getSupportedLocalesAsStaticPathParams } from './archive-utils'
-import { Heading, Link, List } from '@components'
+import { Heading, Link, List } from '@equinor/energyvision-components'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
 type OldLinks = {
