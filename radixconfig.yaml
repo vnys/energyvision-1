@@ -7,22 +7,13 @@ spec:
     - name: dev
       build:
         from: main
-    - name: test
   components:
     - name: web
       publicPort: http
-      image: ghcr.io/equinor/energyvision/web:{imageTagName}
-      alwaysPullImageOnDeploy: true
+      dockerfileName: web/Dockerfile
       ports:
         - name: http
           port: 3000
-      environmentConfig:
-        - environment: dev
-          imageTagName: main-latest
   dnsAppAlias:
     environment: dev
     component: web
-  privateImageHubs:
-    ghcr.io:
-      username: nilsml
-      email: nilsml@nilsland.com
