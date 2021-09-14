@@ -34,7 +34,8 @@
 		"ms-azuretools.vscode-docker",
 		"kamikillerto.vscode-colorize",
 		"formulahendry.auto-rename-tag",
-		"formulahendry.auto-close-tag"
+		"formulahendry.auto-close-tag",
+		"eg2.vscode-npm-script"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
